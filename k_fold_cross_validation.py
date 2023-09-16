@@ -20,7 +20,7 @@ def k_fold_cross_validate(data_x, data_y, k=5, scoring = 'accuracy'):
 
         train_x = append_bias(train_x)
         val_x = append_bias(val_x)
-        clf = train_ucs(train_x, train_y, 5, '--', visualise=False)
+        clf = train_ucs(train_x, train_y, 10, '--', visualise=False)
         predicted_labels = test(clf, val_x)
         score = 0.0
         if scoring == 'accuracy':

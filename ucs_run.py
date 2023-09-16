@@ -43,7 +43,7 @@ def ucs_run(data_name):
 
     data_x = np.copy(data_x_copy)
     data_y = np.copy(data_y_copy)
-    clf = train_ucs(data_x_copy, data_y_copy, 5, '--', visualise=False)
+    clf = train_ucs(data_x_copy, data_y_copy, 10, '--', visualise=False)
     c_n, c_h = count_pararmeters(clf)
     output_dict['number_of_hyperplanes'] = c_h
     output_dict['number_of_parameters'] = c_n
