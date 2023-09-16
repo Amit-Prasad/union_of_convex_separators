@@ -205,14 +205,6 @@ def update_w(W, derivative, learn_rate):
         W_new.append(W[i] + learn_rate*derivative[i])
     return W_new
 
-def reset_removal_counts(W):
-    count_zero_derivative = []
-    count_zero_one_sided = []
-    for i in range(0, len(W)):
-        count_zero_derivative.append(np.zeros(W[i].shape[1]))
-        count_zero_one_sided.append(np.zeros(W[i].shape[1]))
-    return count_zero_derivative, count_zero_one_sided
-
 def learn_init_hyperplane(W, S, data_x, data_y, first, pdf, visualise = False):
     w = -1 + 2 * np.random.random(data_x.shape[0])
     if first:
@@ -297,13 +289,6 @@ def learn_init_hyperplane(W, S, data_x, data_y, first, pdf, visualise = False):
     not_in_the_hull = (abs(end_obj - len(positive_indices)) <= 2)
     return w, not_in_the_hull, S[fp_index], x_fp
 
-def min_distance_point(point, data_x, data_y, label):
-    label_indices = np.where(data_y==label)[0]
-    dist = np.zeros(data_y) + np.Inf
-    data_s = data_x[:, label_indices]
-    dist[label_indices] = np.linalg.norm(data_s - point)
-    min_index = np.argmin(dist)
-    return min_index
 
 def learn_hyperplanes(W, S, data_x, data_y, learn_rate, p, pdf, added_hyp, visualise = False):
     iter = 0
