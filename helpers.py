@@ -35,3 +35,11 @@ def append_bias(data_x):
     data_x_temp[0:-1, :] = data_x
     data_x_temp[-1, :] = np.ones(data_x.shape[1])
     return data_x_temp
+
+'''
+#approach1
+def hyperplane_init_objective(w, data_x, data_y, x_fp):
+    dot_prod = np.dot(w, data_x) - np.dot(w, x_fp)
+    dot_prod[dot_prod>=1] = 1
+    return np.sum(dot_prod * check_label(data_y, 1))
+'''
