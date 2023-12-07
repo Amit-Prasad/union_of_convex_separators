@@ -10,3 +10,5 @@ For evaluation on real datasets:
 Run ucs_run.py
 
 Make sure to specify file paths correctly.
+
+Read the full paper union_of_convex_separator.pdf
