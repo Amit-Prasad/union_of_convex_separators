@@ -6,7 +6,7 @@ Designed by : Amit Prasad (https://www.linkedin.com/in/amit-prasad-951081119/), 
 For evaluation on synthetic data:
 Run the file ucs.py directly
 
-For evalaution on real datasets:
+For evaluation on real datasets:
 Run ucs_run.py
 
 Make sure to specify file paths correctly.
