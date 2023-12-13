@@ -14,7 +14,7 @@ Run the file ucs.py directly
 
 The performance on real datasets is shown here:
 | Algorithm                 |                      AUROC Scores on datasets                                |
-| ---------                 | ---------------------------------------------------------------------------- |
+| ---------                 | ------|---------------------|----------|------------|----------|-------------|
 | ---------                 | Churn | Covertype (Subset)  | Diabetes | Ionosphere | Shoppers | Telco Churn |
 | Union of Convex Separators| 0.85  | 0.88                | 0.86     | 0.96       |0.91      | 0.85        |
 | Logistic Regression       | 0.75  | 0.85                | 0.79     | 0.91       |0.89      | 0.85        |
