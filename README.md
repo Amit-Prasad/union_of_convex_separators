@@ -13,7 +13,7 @@ For evaluation on synthetic data:
 Run the file ucs.py directly
 
 The performance on real datasets is shown here:
-| Algorithm                 |                      AUROC Scores on datasets                                |
+| Algorithm                 |      Span <td colspan=2>AUROC ono real datasets  <td colspan=3>              |
 | ---------                 | ------|---------------------|----------|------------|----------|-------------|
 | ---------                 | Churn | Covertype (Subset)  | Diabetes | Ionosphere | Shoppers | Telco Churn |
 | Union of Convex Separators| 0.85  | 0.88                | 0.86     | 0.96       |0.91      | 0.85        |
