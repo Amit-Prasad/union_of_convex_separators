@@ -13,16 +13,17 @@ For evaluation on synthetic data:
 Run the file ucs.py directly
 
 The performance on real datasets is shown here:
-| Algorithm                 |      Span <td colspan=2>AUROC ono real datasets  <td colspan=3>              |
-| ---------                 | ------|---------------------|----------|------------|----------|-------------|
-| ---------                 | Churn | Covertype (Subset)  | Diabetes | Ionosphere | Shoppers | Telco Churn |
-| Union of Convex Separators| 0.85  | 0.88                | 0.86     | 0.96       |0.91      | 0.85        |
-| Logistic Regression       | 0.75  | 0.85                | 0.79     | 0.91       |0.89      | 0.85        |
-| MLP 2                     | 0.86  | 0.89                | 0.85     | 0.94       |0.91      | 0.62        |
-| MLP 3                     | 0.85  | 0.91                | 0.85     | 0.98       |0.91      | 0.82        |
-| Random Forest             | 0.82  | 0.91                | 0.85     | 0.97       |0.92      | 0.81        |
-| MLP 1                     | 0.86  | 0.89                | 0.86     | 0.99       |0.92      | 0.81        |
-| XGBoost                   | 0.83  | 0.91                | 0.8      | 0.93       |0.92      | 0.8         |
+# AUROC scores on Real Data
+
+| Algorithm                 | Churn | Covertype (Subset)  | Diabetes  | Ionosphere  | Shoppers  | Telco Churn |
+|---------------------------|-------|---------------------|----------|------------|----------|-------------|
+| Union of Convex Separators| 0.85  | 0.88                | 0.86     | 0.96       | 0.91     | 0.85        |
+| Logistic Regression       | 0.75  | 0.85                | 0.79     | 0.91       | 0.89     | 0.85        |
+| MLP 2                     | 0.86  | 0.89                | 0.85     | 0.94       | 0.91     | 0.62        |
+| MLP 3                     | 0.85  | 0.91                | 0.85     | 0.98       | 0.91     | 0.82        |
+| Random Forest             | 0.82  | 0.91                | 0.85     | 0.97       | 0.92     | 0.81        |
+| MLP 1                     | 0.86  | 0.89                | 0.86     | 0.99       | 0.92     | 0.81        |
+| XGBoost                   | 0.83  | 0.91                | 0.80     | 0.93       | 0.92     | 0.80        |
       
 
 For evaluation on real datasets:
