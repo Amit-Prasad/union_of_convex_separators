@@ -1,5 +1,5 @@
 # Union of Convex Separators
-A novel machine learning algorithm for binary classification problem in the making. To appear in CODS COMAD 2024 (https://cods-comad.in/).
+A novel machine learning algorithm for binary classification problem in the making. Winner of best paper award at CODS COMAD 2024 (https://cods-comad.in/).
 
 Designed by : Amit Prasad (https://www.linkedin.com/in/amit-prasad-951081119/), Prof. Rahul Garg(https://www.cse.iitd.ac.in/~rahulgarg/), Prof. Yogish Sabharwal (https://www.cse.iitd.ac.in/~yogish/HomePage/Home.html)
 
